@@ -1,6 +1,3 @@
-#Write the general annotated framnework and beginning code for a datagrabber object that will connect to an MS server SQL database on the same network and retrieve data by executing stored procedures.
-#The data will be stored in a pandas dataframe and the data will be cleaned and preprocessed before being used in a machine learning model.
-#The data will be used to predict the next day's closing price of a stock.
 
 import pyodbc
 import pandas as pd
