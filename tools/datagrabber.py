@@ -39,7 +39,7 @@ class DataGrabber:
         rows = self.cursor.fetchall()
         columns = [column[0] for column in self.cursor.description]
         data = pd.DataFrame.from_records(rows, columns=columns)
-        return print(data)
+        return data
     
     def test(self):
         data = self.cursor.execute(f"EXEC sp_GetObsByDayOfWeek")
