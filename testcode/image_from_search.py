@@ -24,7 +24,7 @@ image_url = data.iloc[0, 0].strip()  # Ensure the URL is properly formatted
 
 # Load the image widget
 app = QApplication(sys.argv)
-ui_file = "pictures_screen.ui"  # Path to your UI file
+ui_file = "ui_components/pictures_screen.ui"  # Path to your UI file
 window = ImageWidget(image_url, ui_file)
 window.setFixedSize(800, 600)
 window.show()

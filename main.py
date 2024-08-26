@@ -6,7 +6,7 @@ from PyQt5.QtWidgets import QMainWindow, QApplication
 class MainWindow(QMainWindow):
     def __init__(self):
         super(MainWindow, self).__init__()
-        loadUi("ui_file.ui", self)
+        loadUi("ui_components/ui_file.ui", self)
 
 # main
 app = QApplication(sys.argv)
